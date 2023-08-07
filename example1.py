@@ -15,7 +15,7 @@ import datetime
 
 blogdb = pymysql.connect(host='blogdb.cm2yxwfja9ii.ap-northeast-2.rds.amazonaws.com',
                       user='admin',
-                      password='blogdb!2',
+                      password='', ##비밀번호 입력
                       database='blogdb',
                       charset='utf8',
                       port=3306)
